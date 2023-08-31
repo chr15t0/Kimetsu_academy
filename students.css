@@ -1,0 +1,46 @@
+html{
+    height: 100%;
+}
+body {
+    background: -webkit-linear-gradient(top, #f96a08, #ffff99);
+}
+.bg-pic{
+    position: absolute;
+    top: 0;
+    left : 0;
+    width : 100%;
+    z-index:-1 ;
+}
+.navbar{
+    background: rgba(0, 0, 0, 0.3);
+    backdrop-filter:blur(10px);
+}
+.btn{
+    background: rgba(0, 0, 0, 0.3);
+    color: white;
+    margin-right: 20px;
+}
+.btn:hover{
+    background: rgba(255, 0, 0, 0.3);
+    color: white;
+}
+.jumbotron{
+    position: relative;
+    background:rgba(255, 255, 255, 0.0) ;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.container{
+    text-align: center;
+    background: rgba(0, 0, 0, 0.3);
+    backdrop-filter:blur(5px);
+    color: white;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 20px;
+}
+.container a:hover{
+    background: rgba(111, 188, 255, 0.3);
+}
